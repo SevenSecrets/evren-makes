@@ -38,5 +38,7 @@
 }
 
 .footer {
+  display: flex;
+  justify-content: space-around;
   font-size: calc(5px + 1vmin);
 }

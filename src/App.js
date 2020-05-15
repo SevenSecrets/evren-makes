@@ -1,4 +1,5 @@
 import React from 'react';
+import placeholder from './placeholder.jpeg';
 import './App.css';
 
 function App() {
@@ -10,18 +11,12 @@ function App() {
         </h1>
         <div className="Socials">
           <a href="https://instagram.com/evrenmakes" target="_blank" rel="noopener noreferrer">
-            <img src="https://img.icons8.com/material-sharp/24/000000/instagram-new.png"/>
-          </a>
-          <a href="https://twitter.com/BhEvren" target="_blank" rel="noopener noreferrer">
-            <img src="https://img.icons8.com/android/24/000000/twitter.png"/>
+            <img src="https://img.icons8.com/material-sharp/24/000000/instagram-new.png" alt="instagram link" height="30" width="30"/>
           </a>
         </div>
       </header>
       <body className="App-body">
-        <p>
-          App Body goes here
-        </p>
-        <img src="" alt="placeholder"/>
+        <img src={placeholder} alt="placeholder" height="800" width="1024"/>
         <div className="Project-images">
         </div>
       </body>
