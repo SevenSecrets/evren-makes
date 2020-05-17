@@ -16,11 +16,11 @@ function App() {
           </a>
         </div>
       </header>
-      <body className="App-body">
+      <div className="App-body">
         <div className="Project-images">
           <ProjectImage imageUri={placeholder} altText="placeholder"/>
         </div>
-      </body>
+      </div>
       <footer className="footer">
         <a href="https://icons8.com/">Instagram and Twitter icons by Icons8</a>
       </footer>
