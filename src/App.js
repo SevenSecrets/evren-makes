@@ -1,5 +1,6 @@
 import React from 'react';
 import placeholder from './placeholder.jpeg';
+import ProjectImage from './ProjectImage.js';
 import './App.css';
 
 function App() {
@@ -16,8 +17,8 @@ function App() {
         </div>
       </header>
       <body className="App-body">
-        <img src={placeholder} alt="placeholder" height="800" width="1024"/>
         <div className="Project-images">
+          <ProjectImage imageUri={placeholder} altText="placeholder"/>
         </div>
       </body>
       <footer className="footer">
